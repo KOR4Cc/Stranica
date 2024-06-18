@@ -1,0 +1,14 @@
+h1{
+ 
+    text-align: center;
+    border: 5px solid black;
+    background-color: grey;
+
+}
+body{
+    background-color: rgb(189, 187, 187);
+    text-align: center;
+}
+img{
+    align-items: center;
+}
