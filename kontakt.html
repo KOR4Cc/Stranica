@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakti</title>
+</head>
+<body>
+
+    <div>
+        <h2>
+            Kontakt informacije Rukometnog kluba - Sloga Pozega
+        </h2>
+    </div>
+
+    <div>
+        <ul>
+            <li>
+                <strong>Trener:</strong>Ime Trenera <br>
+                <strong>Telefon:</strong>+389 345 231  <br>
+                <strong>Email:</strong>nesto@gmail.com<br>
+            </li>
+
+            <li>
+                <strong>Pomocni Trener:</strong>Ime Trenera <br>
+                <strong>Telefon:</strong>+389 345 231  <br>
+                <strong>Email:</strong>nesto@gmail.com<br>
+            </li>
+
+            <li>
+                <strong>Direktor kluba</strong>Nemanja Korac <br>
+                <strong>Telefon:</strong>+381 450 29 00 <br>
+                <strong>Email:</strong>nemanja.koracc@gmail.com<br>
+            </li>
+        </ul>
+    </div>
+
+    <div>
+
+       <ul>
+        <li>
+            <strong>Adresa</strong> Pozega <br>
+            <strong>Telefon:</strong>+389 345 231 <br>
+        </li>
+       </ul>
+       
+        
+    </div>
+
+    <div>
+    <h2>Kontaktirajte nas</h2>
+    <form action="/submit_form" method="post">
+        <label for="fname">Ime:</label><br>
+        <input type="text" id="fname" name="fname" required><br><br>
+    
+        <label for="lname">Prezime:</label><br>
+        <input type="text" id="lname" name="lname" required><br><br>
+    
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+    
+        <label for="phone">Broj telefona:</label><br>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="0912345678" required><br><br>
+    
+        <input type="submit" value="Pošalji">
+    </form>
+    
+</div>
+    
+
+
+
+</body>
+</html>
